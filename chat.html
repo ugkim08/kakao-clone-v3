@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/e9a6f4769d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chat | Kakao Clone</title>
+</head>
+
+<body class="chats-body">
+    <div class="header-wrapper">
+        <div class="status-bar">
+            <div class="status-bar__cloumn">
+                <span class="status-bar__clock">13:54</span>
+            </div>
+            <div class="status-bar__cloumn">
+                <i class="fas fa-clock"></i>
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-wifi"></i>
+                <span class="status-bar__battery-lever">75%</span>
+                <i class="fas fa-battery-three-quarters"></i>
+            </div>
+        </div>
+        <header class="header">
+            <div class="header__header__column">
+                <a href="index.html" class="header__back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <h1 class="header__title">니나노띵</h1>
+            </div>
+            <div class="header__header__column">
+                <span class="header__icon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <span class="header__icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+        </header>
+    </div>
+    <main class="chat-screen">
+        <ul class="chat__messages">
+            <span class="chat__timestamp">Sunday, October 6, 2019</span>
+            <li class="incoming-message message">
+                <img src="img/Saboteur.png" class="m-profile message__profile" />
+                <div class="message__content">
+                    <span class="message__author">니나노띵</span>
+                    <div class="message__bubble">
+                        오늘의 밥플 메뉴는?!
+                    </div>
+                </div>
+            </li>
+            <li class="sent-message message">
+                <div class="message__content">
+                    <div class="message__bubble">
+                        블로그에서 찾아보샘
+                    </div>
+                </div>
+            </li>
+            <li class="incoming-message message">
+                <img src="img/Saboteur.png" class="m-profile message__profile" />
+                <div class="message__content">
+                    <span class="message__author">니나노띵</span>
+                    <div class="message__bubble">
+                        오,,,, 내일은 꿔바로우!
+                    </div>
+                </div>
+            </li>
+            <li class="sent-message message">
+                <div class="message__content">
+                    <div class="message__bubble">
+                        내일 두판각?!
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <div class="chat__write--container">
+        <input class="chat__write" type="text" placeholder="Send message" class="chat__write-input">
+        <div class="chat__icon-left chat__icon">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat__icon-right chat__icon">
+            <span class="chat__write-icon">
+                <i class="far fa-smile-wink"></i>
+            </span>
+            <span class="chat__write-icon">
+                <i class="fas fa-microphone"></i>
+            </span>
+        </div>
+    </div>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small!!!😱</span>
+    </div>
+</body>
+
+</html>

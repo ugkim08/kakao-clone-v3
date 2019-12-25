@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header .header__title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header .header__icon{
+    font-size: 20px;
+    margin-left: 18px;
+    cursor: pointer; /* cursor : 마우스오버하면 아이콘이 손가락으로 나옴. */   
+}
+
+.header .header__header__column {
+    display: flex;
+    align-content: center;
+}
+
+.header .header__back-btn {
+    font-size: 25px;
+    margin-right: 10px;
+}
